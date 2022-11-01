@@ -72,3 +72,5 @@ const app = express();
  }).catch(function(err){
    console.log("Unable to start server: " + err);
  });
+
+ app.listen(HTTP_PORT);
